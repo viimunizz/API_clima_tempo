@@ -66,7 +66,10 @@
 - A aplicação é atualizada regularmente com novos recursos e correções de bugs. As atualizações são implantadas utilizando um processo de implantação contínua.
 
 ## Importância da documentação
-- A documentação é importante para facilitar a compreensão da aplicação, melhorar a comunicação entre equipes, facilitar o desenvolvimento e a manutenção, e melhorar a qualidade da aplicação. Ferramentas como Notion, Confluence e Swagger podem ser utilizadas para documentar a aplicação. A melhor maneira de documentar a aplicação depende das necessidades especí
+- A documentação é importante para facilitar a compreensão da aplicação, melhorar a comunicação entre equipes, facilitar o desenvolvimento e a manutenção, e melhorar a qualidade da aplicação. Ferramentas como Notion, Confluence e Swagger podem ser utilizadas para documentar a aplicação. A melhor maneira de documentar a aplicação depende das necessidades específicas
+
+
+  
 
 # APP.JS
 
