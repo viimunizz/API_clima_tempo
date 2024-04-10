@@ -1,12 +1,13 @@
-#*Weather App
-Funcionalidade
+# Weather App
+# Funcionalidade
 A Weather App é uma aplicação que permite aos usuários consultar o clima de uma cidade específica. A aplicação utiliza a API OpenWeather para obter dados meteorológicos em tempo real, como temperatura, umidade, velocidade do vento e descrição do clima.
 
-Descrição dos recursos
+# Descrição dos recursos
 Consulta de clima em tempo real para uma cidade específica
 Exibição de dados meteorológicos, incluindo temperatura, umidade, velocidade do vento e descrição do clima
 Exibição da bandeira do país da cidade consultada
-Casos de uso
+
+# Casos de uso
 Um usuário deseja saber o clima atual de uma cidade antes de planejar uma viagem
 Um usuário deseja saber se precisa levar um guarda-chuva ou uma jaqueta antes de sair de casa
 Um usuário deseja saber a velocidade do vento para planejar uma atividade ao ar livre
