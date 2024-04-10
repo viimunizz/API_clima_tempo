@@ -48,7 +48,7 @@ A aplicação segue os padrões de codificação recomendados pela W3C e ECMAScr
 A aplicação foi testada em vários navegadores e dispositivos para garantir a compatibilidade e a funcionalidade.
 
 # Implantação
-##Processo de implantação
+## Processo de implantação
 A aplicação foi implantada utilizando um servidor web simples, como Apache ou Nginx.
 
 # Requisitos de infraestrutura
