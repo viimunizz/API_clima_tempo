@@ -56,7 +56,7 @@
 - Sistema operacional (Linux, Windows, etc.)]
   
 ## Monitoramento e segurança
-= A aplicação é monitorada utilizando ferramentas de monitoramento de servidor e aplicação, como Nagios ou New Relic. A segurança é garantida utilizando certificados SSL e práticas de segurança de aplicação web.
+- A aplicação é monitorada utilizando ferramentas de monitoramento de servidor e aplicação, como Nagios ou New Relic. A segurança é garantida utilizando certificados SSL e práticas de segurança de aplicação web.
 
 # Manutenção
 - Processo de suporte
@@ -68,7 +68,6 @@
 ## Importância da documentação
 - A documentação é importante para facilitar a compreensão da aplicação, melhorar a comunicação entre equipes, facilitar o desenvolvimento e a manutenção, e melhorar a qualidade da aplicação. Ferramentas como Notion, Confluence e Swagger podem ser utilizadas para documentar a aplicação. A melhor maneira de documentar a aplicação depende das necessidades específicas
 
-
   
 
 # APP.JS
@@ -76,14 +75,14 @@
 Clima API
 Esta é uma API simples que permite aos desenvolvedores obter informações meteorológicas de uma cidade específica. A API utiliza o Express.js, o Axios e a API do OpenWeatherMap para obter as informações meteorológicas e as envia de volta para o cliente no formato JSON.
 
-# Como usar
+## Como usar
 Faça uma requisição GET para a API, passando o nome da cidade como parâmetro.
 A API retornará as informações meteorológicas relevantes, como a temperatura, a descrição do clima, a umidade e a velocidade do vento.
 
 ## Rotas
 GET /climatempo/:cidade: Obtém as informações meteorológicas da cidade especificada.
 
-# Como rodar a API
+## Como rodar a API
 Clone o repositório em sua máquina local.
 Instale as dependências usando npm install.
 Crie um arquivo config.json com sua chave de API do OpenWeatherMap.
@@ -95,15 +94,15 @@ Esta é uma API simples e não deve ser usada em produção. Ela foi criada apen
 
 ## SCRIPT.JS
 
-# Clima App
+## Clima App
 Este é um aplicativo simples que permite ao usuário buscar informações meteorológicas de uma cidade específica. O aplicativo utiliza HTML, CSS e JavaScript para criar uma interface simples e intuitiva.
 
-# Como usar
+## Como usar
 Digite o nome da cidade no campo de entrada de texto.
 Clique no botão "Buscar" para enviar a requisição.
 O aplicativo exibirá as informações meteorológicas relevantes na tela, como a temperatura, a descrição do clima, a umidade e a velocidade do vento.
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 HTML
 CSS
 JavaScript
