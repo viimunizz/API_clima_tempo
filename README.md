@@ -24,7 +24,7 @@
 
 # Arquitetura
 ## Componentes da aplicação
- Formulário de consulta de clima
+- Formulário de consulta de clima
 - Exibição de dados meteorológicos
 - API OpenWeather
 
