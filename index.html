@@ -1,30 +1,43 @@
+
+<!--
+  Este é um arquivo HTML que constitui a estrutura básica de uma página web para consulta de clima.
+  Ele contém elementos para exibir o clima de uma cidade específica e interagir com o usuário.
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Definição de metadados, título da página e importação de recursos externos -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherWise - Consulta de Clima</title>
-    <link rel="icon" href="img/siteIcon.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/siteIcon.png" /> <!-- Ícone da página -->
+    <link rel="stylesheet" href="style.css" /> <!-- Folha de estilo -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Importação de fontes do Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Krona+One&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script> <!-- Biblioteca de ícones -->
   </head>
   <body>
+    <!-- Conteúdo principal da página -->
     <div class="video-container">
+      <!-- Elemento para reproduzir um vídeo em loop (background) -->
       <video autoplay loop muted>
         <source src="./img/videoplayback.mp4" type="video/mp4" />
       </video>
     </div>
 
     <header>
+      <!-- Cabeçalho da página -->
       <main class="main-header">
         <nav class="main-header-nav">
+          <!-- Navegação principal -->
           <div class="main-header-nav-title">
+            <!-- Título "WEATHER WISE" -->
             <p class="main-header-nav-title-weather">WEATHER</p>
             <p class="main-header-nav-title-wise">WISE</p>
           </div>
@@ -37,8 +50,8 @@
         </nav>
       </main>
     </header>
-    <!-- <h1>Consulta do Clima Tempo</h1> -->
 
+    <!-- Formulário para consulta de clima -->
     <main>
       <section class="main-city">
         <h3>Confira o clima de uma cidade</h3>
@@ -51,18 +64,28 @@
       </section>
     </main>
 
+    <!-- Resultado da consulta de clima -->
     <main class="main-clima">
-      <div id="climaResult"></div>
+      <div id="climaResult"></div> <!-- Contêiner para exibir os resultados -->
       <div id="loader" class="hide">
+        <!-- Ícone de carregamento -->
         <i class="fa-solid fa-spinner"></i>
       </div>
     </main>
 
-    <script src="script.js"></script>
+    <!-- Script JavaScript -->
+    <script src="script.js"></script> <!-- Lógica de interação com a página -->
   </body>
 </html>
 
-<!-- <main class="main-clima">
+<!--
+  O trecho de código HTML comentado abaixo é uma seção que provavelmente seria dinamicamente preenchida com dados
+  obtidos a partir de uma solicitação à API de clima. Ela representa a estrutura de como os dados seriam exibidos
+  na página após a consulta.
+-->
+
+<!-- 
+<main class="main-clima">
   <div id="climaResult">
     <div class="clima-city-name">
       <i class="ph ph-map-pin"></i>
@@ -84,4 +107,5 @@
       <img src="${data.Icone}">
     </div>
   </div>
-</main> -->
+</main>
+→
