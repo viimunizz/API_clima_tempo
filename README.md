@@ -87,9 +87,6 @@ Clone o repositório em sua máquina local.
 Instale as dependências usando npm install.
 Crie um arquivo config.json com sua chave de API do OpenWeatherMap.
 Inicie a API usando node app.js.
-Faça uma requisição GET para http://localhost:3000/climatempo/:cidade.
-Considerações finais
-Esta é uma API simples e não deve ser usada em produção. Ela foi criada apenas para fins educacionais e de demonstração. Além disso, é necessário obter uma chave de API do OpenWeatherMap e da flagsAPI para usar a API.
 
 
 ## SCRIPT.JS
